@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+#panels {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 44px;
+    overflow: hidden;
+}
+.Panel {
+    position: relative;
+    display: inline-block;
+}
+.Panel img {
+    width: 100%;
+}
+#controls {
+    font-family: "Helvetica Neue";
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 36px;
+    padding: 4px;
+    background: rgba(0,0,0,0.8);
+    white-space: nowrap;
+}
+#project_controls {
+    float: right;
+}
